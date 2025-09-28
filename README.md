@@ -24,10 +24,14 @@ Cada usuario tiene una bóveda personal de ETH donde puede **depositar** y **ret
 5. Confirmar transacción en MetaMask y guardar la dirección del contrato.  
 
 ## Verificación
-En el explorador de bloques (ej. Sepolia Etherscan) usar **Verify & Publish**:  
-- Versión de compilador `0.8.30`.  
-- Licencia `MIT`.  
-- Pegar el código fuente.  
+1. Una vez desplegado el contrato, copiar la **dirección del contrato**.  
+2. Abrir el explorador de bloques de la red utilizada (ej. Sepolia Etherscan).  
+3. Buscar la dirección del contrato y entrar en la pestaña **Verify & Publish**.  
+4. Seleccionar:
+   - Compilador: `Solidity 0.8.30`  
+   - Licencia: `MIT`  
+5. Pegar el **código fuente completo** de `BancoKipu.sol`.  
+6. Confirmar. El contrato quedará verificado y las funciones podrán ejecutarse desde el explorador.  
 
 ## Interacción
 - **Depositar ETH** → `Depositar()` con `value`.  
